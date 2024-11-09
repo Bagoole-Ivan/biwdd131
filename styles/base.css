@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&family=Lobster&display=swap');
+
+/* My basic layout */
+.about-me {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    background-color: yellow;
+}
+
+/* My styling for the header*/
+
+.header1 {
+    background-color: blue;
+    color: aliceblue;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.a1 {
+    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 20px;
+    grid-gap: 80px;
+    background-color: aqua;
+    color:  white;
+    text-align: center;
+    margin-inline: 20px;
+    
+}
+
+/* The styling for the text content */
+.text-content {
+    flex: 1;
+    max-width: 60%;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+.text-content h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.text-content p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+.text-content strong {
+    font-weight: bold;
+}
+
+/* The styling for the image */
+.image-content {
+    flex: 0 0 32%;
+    text-align: center;
+}
+
+.image-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+footer {
+    display: flex;
+    background-color: blue;
+    text-align: center;
+    padding: 10px;
+}
+
+/* My responsive design for smaller screens */
+@media (max-width: 768px) {
+    .about-me {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .text-content {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .image-content {
+        flex: 1 0 100%;
+        max-width: 100%;
+    }
+}
+
