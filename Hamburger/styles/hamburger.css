@@ -12,11 +12,11 @@ h1 {
 }
 
 h2 {
-		font-size: 1.2rem;
-		color: navy;
-		text-align: left;
-		margin: 1rem;
-	}
+	font-size: 1.2rem;
+	color: navy;
+	text-align: left;
+	margin: 1rem;
+}
 
 nav {
 	max-width: 700px;
@@ -29,11 +29,9 @@ nav {
 	border: 0;
 	background: none;
 	color: #000;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
 }
 
 #menu::before {
@@ -70,17 +68,16 @@ nav {
 	display: block;
 }
 
-.active::before {
+.active::before { 
 	content: "📍";  /* just a way finding symbol for the user */
 }
 
 .stuff {
-	margin: .5m;
-	border: 1px solid rgba(0,0,0,.1);
+	margin: 0.5m;
+	border: 1px solid rgba(0, 0, 0, 0.1);
 	background-color: #bed;
 	max-width: 580px;
 	height: 100vh;
-	
 }
 
 /* large view navigation ************************************/
@@ -90,7 +87,7 @@ nav {
 		margin-left: 0;
 		text-align: center;
 	}
-	
+
 	h2 {
 		font-size: 2rem;
 		text-align: center;
@@ -108,7 +105,7 @@ nav {
 		display: block;
 		flex: 1 1 100%;
 	}
-	
+
 	.stuff {
 		margin: 1rem auto;
 	}
