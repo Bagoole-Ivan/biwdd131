@@ -19,6 +19,43 @@
     }
     }
 
+    body {
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    header { 
+        border: 1px solid #bbb;
+        background-color: aqua;
+        margin: 2px;
+    }
+    
+    main {
+        border: 1px solid #bbb;
+        background-color: aqua;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }  
+    
+    img {
+        width: 350px;
+    }
+    
+    footer {
+        max-width: 640px;
+        margin: 1rem auto;
+        border: 1px solid #bbb;
+        background-color: aqua;
+        
+    }
+    
+    section {
+        
+        display: contents;
+        columns: 3;
+        column-span: 3fr;
+        background-color: yellow;
+    }    
+
 header {
     background-color: yellow;
     color: red;
