@@ -6,16 +6,16 @@
         display: flex;
         position: static;
         width: auto;
-        margin-right:20px;
+        margin-right:10px;
         background: none;
     }
     .topnav a{
         display: inline-block;
-        padding: 15px 20px;
+        padding: 8px 10px;
     }
     .topnav a:hover{
         background-color: rgb(223, 251, 219);
-        border-radius: 5px;
+        border-radius: 2px;
     }
     }
 
