@@ -1,0 +1,70 @@
+@media screen and (min-width:600px){
+    .topnav {
+        justify-content: space-around;
+    }
+    .topnav {
+        display: flex;
+        position: static;
+        width: auto;
+        margin-right:20px;
+        background: none;
+    }
+    .topnav a{
+        display: inline-block;
+        padding: 15px 20px;
+    }
+    .topnav a:hover{
+        background-color: rgb(223, 251, 219);
+        border-radius: 5px;
+    }
+    }
+
+    body {
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    header { 
+        border: 1px solid #bbb;
+        background-color: aqua;
+        margin: 2px;
+    }
+    
+    .res-grid {
+        border: 1px solid #bbb;
+        background-color: aqua;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }  
+    
+    footer {
+        max-width: 640px;
+        margin: 1rem auto;
+        border: 1px solid #bbb;
+        background-color: aqua;
+        
+    }
+    
+    section {
+        
+        display: grid;
+        background-color: yellow;
+    }    
+
+header {
+    display: flex;
+    background-color: yellow;
+    color: red;
+    margin-left: 0px;
+
+}
+
+.hom {
+    text-align: center;
+    color: darkblue;
+}
+
+.res-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: auto;
+}
+
