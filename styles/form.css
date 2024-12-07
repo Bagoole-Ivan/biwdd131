@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  main {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #e7d9e7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  form select,
+  form input[type="date"],
+  form input[type="text"],
+  form textarea,
+  form button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  .rating-group {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .rating-group input {
+    display: none;
+  }
+  
+  .rating-group label {
+    cursor: pointer;
+    font-size: 24px;
+    color: lightblue;
+  }
+  
+  .rating-group input:checked ~ label {
+    color: red;
+  }
+  
+  form button {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  form button:hover {
+    background-color: red;
+  }
+  
+  footer {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  footer span {
+    font-weight: bold;
+  }
+  
